@@ -1,0 +1,17 @@
+{
+  "name": "guild-master",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "node -r dotenv/config index.js",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "all": "0.0.0",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "discord.js": "^11.3.2",
+    "dotenv": "^6.0.0",
+    "mocha": "^5.2.0",
+    "mysql": "^2.17.1"
+  }
+}
